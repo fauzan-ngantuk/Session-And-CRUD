@@ -34,6 +34,7 @@ if (isset($_SESSION['username'])) {
 			<?php endif; ?>
 	</table>
 	<br>
+	<p>Add Data</p>
 	<form action="insert.php" method="post">
 		Nama : <input type="text" name="nama" size="40">
 		<br>
